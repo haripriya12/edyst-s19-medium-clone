@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background: #fff;
+}
+.first{
+    width: auto;
+    margin: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.firstb{
+    display: flex;
+    flex-direction: row;
+}
+.icon{
+    height: 40%;
+    width: 40%;
+    margin-top: 10%;
+    display: flex;
+    flex: 1;
+}
+.leftside{
+    display: flex;
+    flex: 1
+}
+.rightside{
+    display: flex;
+    flex: 4;
+}
+.name{
+    display: flex;
+    flex: 7;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signin{
+    display: flex;
+    flex: 1;
+    font-family: sans-serif,Arial;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+    line-height: 17px; 
+    margin-top: 6%;
+}
+.signin>a{
+    color: rgba(58, 30, 216, 0.651);
+    text-decoration: none;
+}
+.started{
+    display: flex;
+    flex: 3;
+    font-family: sans-serif,Arial;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+    line-height: 17px;  
+    margin-top: 6%;
+}
+.started>a{
+    color: rgba(58, 30, 216, 0.651);
+    text-decoration: none;
+}
+/* .rect{
+    border:1px solid rgba(58, 30, 216, 0.651);  
+    text-decoration: none;
+    border-radius: 5px;
+    border-width: 2px;
+} */
+.second{
+    max-width: 800px;
+    margin-left: 30%;
+    margin-right: 20%;
+    text-align: left;
+}
+.b2{
+    color: rgb(95, 92, 92);
+    letter-spacing: -0.0001em;
+    font-size: 20px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+}
+img{
+    border-radius: 50%;
+    height: 45px;
+    border: 2px solid rgb(35, 36, 34);
+    padding: 20px; 
+    width: 30px;
+    height: 30px; 
+}
+.rect1{
+    border:1px solid rgb(42, 40, 153);
+    border-radius: 5px;
+    border-width: 2px;
+    text-decoration: none;
+}
+.follow{
+    margin-top: 17px;  
+    width: 5px;
+}
+/* .pub{
+    margin-top: 29px;
+    margin-left: -112px;
+} */
+.third{
+    max-width: 800px;
+    margin-left: 21%;
+    margin-right: 20%;
+    text-align: left;
+}
+.data{
+    color: rgb(95, 92, 92);
+    letter-spacing: -0.0001em;
+    font-size: 23px;
+}

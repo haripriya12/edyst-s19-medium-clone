@@ -1,16 +1,6 @@
-body{
-    margin: 0;
-    padding: 0;
-    position: relative;
-    background: #fff;
-}
 .container{
-    /* width: auto;
-    margin: auto; */
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-bottom: 5%;
-    margin-top: 5%;
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
 .main-container{
     display: flex;
@@ -19,37 +9,39 @@ body{
 .logo{
     /* width: 100px; */
     /* height: 45%; */
+    /* display: flex;
+    flex: 1;   */
     display: flex;
-    flex: 1;  
-    font-family: sans-serif,Arial;
-    font-size: 9px;
-    font-weight: bold;
-}
-.searchbox{
-    display: flex;
-    flex: 1;  
+    flex: 3;
     font-family: sans-serif,Arial;
     font-size: 10px;
+    height: 45%;
     font-weight: bold;
-    letter-spacing: -0.05em;
+    margin-top: -5%;
+}
+.searchbox{
+    font-family: sans-serif,Arial;
+    font-size: 15px;
+    font-weight: bold;
+    /* letter-spacing: -0.05em;
     line-height: 45px; 
-    height: 3%;
+    height: 3%; */
     /* padding: 20px; */
 }
 .mem{
-    display: flex;
-    flex: 1; 
+    /* display: flex;
+    flex: 1;  */
     font-family: sans-serif,Arial;
-    font-size: 20px;
+    font-size: 10px;
 }
 .mem>a{
     color:  rgb(48, 51, 48);
 }
 .login-form{
-    display: flex;
-    flex: 9; 
+    /* display: flex;
+    flex: 9;  */
     font-family: sans-serif,Arial;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: bold;
     letter-spacing: -0.05em;
 }
@@ -57,10 +49,6 @@ body{
     color: rgb(37, 226, 31);
     text-decoration: none;
 }
-/* .rect{
-    border:1px solid rgb(37, 226, 31);
-    height: 20%;
-} */
 .tags{
     margin-top: 9%;
 }
@@ -90,20 +78,30 @@ body{
     letter-spacing: -0.0001em;
     font-size: 20px;
 }
-/* @media screen and (max-width:300px){
-    .container{
-        width: 100%;
-    }
-} */
-@media not screen and (max-width: 850px) {
+.new{
+    display: flex;
+    flex-direction: row;
+}
+.pub{
+    display: flex;
+    flex: 4;
+}
+@media not screen and (max-width: 700px) {
     .container {
-        margin-left: 30;
-        margin-right: 30;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .mem{
+        font-family: sans-serif,Arial;
+        font-size: 20px;
+    }
+    .login-form{
+        font-size: 20px;
+    }
+    .logo{
+        margin-top: -3%;
+    }
+    .searchbox{
+        margin-top: 0%;
     }
 }
-/* @media screen and (min-width: 1200px) {
-    .container {
-        margin-left: 30%;
-        margin-right: 30%;
-    }
-} */
